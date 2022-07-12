@@ -1271,22 +1271,9 @@ user.afkReason = text
 reply(lang.TbAfk(pushname, text))
 }
 break  
-case 'family100': {
-	reply('Maintenance')
-/*if ('family100'+m.chat in _family100) {
-reply(lang.Family())
-throw false
-}
-let anu = await fetchJson('https://fatiharridho.my.id/database/games/family100.json')
-let random = anu[Math.floor(Math.random() * anu.length)]
-let hasil = `${lang.TbFamily(random.soal, random.jawaban.length, random.jawaban.find)}`.trim()
-_family100['family100'+m.chat] = {
-id: 'family100'+m.chat,
- pesan: await alpha.sendText(m.chat, hasil, m),
-...random,
-terjawab: Array.from(random.jawaban, () => false),
-hadiah: 6,
-}*/
+case 'bot': {
+	reply('APA WOI, DAH AKTIF AKU!
+JANGAN KAU PANGGIL PANGGIL TEROS!!')
 }
 break
 case 'tebakgambar': {
